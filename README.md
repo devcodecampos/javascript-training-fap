@@ -1,7 +1,61 @@
 ## 📗 Formação Acelerada em Programação - BACKEND (NODE.JS) 
 - Programa realizado pela [Softex Pernambuco](https://softexpe.org.br/)
 - Repositório criado para armazenar o conteúdo das aulas, como também dos desafios passados pelo professor
+ ## 🚀 Desafios [Aula 25-07]
+  - #### [Escreva um programa que imprima "Olá, mundo!" na tela](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function printHelloWorld() {
+        let message = 'Hello World'
+        console.log(message)
+      }
+    ```
+  - #### [Crie um programa que solicite o nome do usuário e, em seguida, imprima uma mensagem personalizada com o nome inserido](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function customMessage(name) {
+        console.log(`${name}, que a força esteja com você!`)
+      }
+    ```
+- #### [Escreva um programa que calcule a soma de dois números inteiros e exiba o resultado](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function calculateSum(firstNumber, secondNumber) {
+        let calculate = firstNumber + secondNumber
+        return calculate
+      }
+    ```
+- #### [Crie um programa que receba a idade de uma pessoa e informe se ela é maior ou menor de idade](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function isMinorAge(age) {
+        if (age < 18) return true
 
+        return false
+      }
+    ```
+- #### [Faça um programa que verifique se um número é par ou impar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function isEven(number) {
+        if (number % 2 === 0) return true
+
+        return false
+      }
+    ```
+- #### [Escreva um programa que calcule a média de três números informados pelo usuário](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function average(numbers) {
+        let sum = 0
+        for (number of numbers) {
+          sum += number
+        }
+
+        let calculate = sum / numbers.length
+        return calculate
+      }
+    ```
  ## 🚀 Desafios [Aula 18-07]
   - #### [Criação de um programa em Javascript que solicite ao usuário um número inteiro e exiba na tela se o número é par ou ímpar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
   

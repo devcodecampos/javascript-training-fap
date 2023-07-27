@@ -1,7 +1,7 @@
 ## 📗 Formação Acelerada em Programação - BACKEND (NODE.JS) 
 - Programa realizado pela [Softex Pernambuco](https://softexpe.org.br/)
 - Repositório criado para armazenar o conteúdo das aulas, como também dos desafios passados pelo professor
- ## 🚀 Desafios [Aula 25-07]
+ ## 🚀 Desafios [Aula 25-07](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
   - #### [Escreva um programa que imprima "Olá, mundo!" na tela](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
     ```js
       // Trecho do Código
@@ -208,7 +208,7 @@
    
     Escolha uma opção: 
     ```
- ## 🚀 Desafios [Aula 18-07]
+ ## 🚀 Desafios [Aula 18-07](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
   - #### [Criação de um programa em Javascript que solicite ao usuário um número inteiro e exiba na tela se o número é par ou ímpar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
   
     ```js

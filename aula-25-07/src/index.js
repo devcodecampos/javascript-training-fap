@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')()
 
 const printHelloWorld = require('./utils/print-hello-world')
+const customMessage = require('./utils/print-custom-message')
 
 let option
 do {
@@ -32,7 +33,8 @@ do {
       printHelloWorld()
       break
     case 2:
-      console.log('')
+      let name = prompt('Informe seu nome: ')
+      customMessage(name)
       break
     case 3:
       console.log('')

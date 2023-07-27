@@ -84,9 +84,9 @@ do {
       console.log('A média dos número informados foi de: ' + average(numbers))
       break
     case 7:
-      let initial = 1
-      let end = 10
-      printAscNumbers(initial, end)
+      let initialAsc = 1
+      let endAsc = 10
+      printAscNumbers(initialAsc, endAsc)
       break
     case 8:
       let initialEven = 1

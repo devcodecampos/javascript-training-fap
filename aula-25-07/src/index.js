@@ -2,6 +2,7 @@ const prompt = require('prompt-sync')()
 
 const printHelloWorld = require('./utils/print-hello-world')
 const customMessage = require('./utils/print-custom-message')
+const calculateSum = require('./utils/calculate-sum')
 
 let option
 do {
@@ -9,7 +10,7 @@ do {
   \Exercícios 
   \n(1) Escreva um programa que imprima "Olá, mundo!" na tela
   \n(2) Crie um programa que solicite o nome do usuário e, em seguida, imprima uma mensagem personalizada com o nome inserido 
-  \n(3) Escriva um programa que calcule a soma de dois números inteiros e exiba o resultado
+  \n(3) Escreva um programa que calcule a soma de dois números inteiros e exiba o resultado
   \n(4) Crie um programa que receba a idade de uma pessoa e informe so ela é maior ou menor de idade
   \n(5) Faça um programa que verifique se um número é par ou impar
   \n(6) Escreva um programa que calcule a média de très números informados pelo usuário
@@ -37,7 +38,10 @@ do {
       customMessage(name)
       break
     case 3:
-      console.log('')
+      let firstNumber = Number.parseInt(prompt('Informe o primeiro número: '))
+      let secondNumber = Number.parseInt(prompt('Informe o segundo número: '))
+      
+      console.log('A soma é: ' + calculateSum(firstNumber, secondNumber))
       break
     case 4:
       console.log('')

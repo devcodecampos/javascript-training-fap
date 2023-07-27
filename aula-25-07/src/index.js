@@ -6,6 +6,7 @@ const calculateSum = require('./utils/calculate-sum')
 const isMinorAge = require('./utils/minor-age')
 const isEven = require('./utils/even-odd')
 const average = require('./utils/average')
+const printAscNumbers = require('./utils/print-asc-numbers')
 
 let option
 do {
@@ -16,8 +17,8 @@ do {
   \n(3) Escreva um programa que calcule a soma de dois números inteiros e exiba o resultado
   \n(4) Crie um programa que receba a idade de uma pessoa e informe se ela é maior ou menor de idade
   \n(5) Faça um programa que verifique se um número é par ou impar
-  \n(6) Escreva um programa que calcule a média de très números informados pelo usuário
-  \n(7) Crie um programa que imprima os números de 1 a 10 em ordern crescente
+  \n(6) Escreva um programa que calcule a média de três números informados pelo usuário
+  \n(7) Crie um programa que imprima os números de 1 a 10 em ordem crescente
   \n(8) Faça um programa que imprima os números pares de 1 a 20
   \n(9) Crie um programa que determine se um número é primo ou não
   \n(10) Faça um programa que converts graus Celsius para Fahrenheit
@@ -80,6 +81,11 @@ do {
       numbers.push(thirdNumberAverage)
 
       console.log('A média dos número informados foi de: ' + average(numbers))
+      break
+    case 7:
+      let initial = 1
+      let end = 10
+      printAscNumbers(initial, end)
       break
     default:
       console.log('Informe uma opção disponível')

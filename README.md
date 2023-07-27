@@ -56,6 +56,158 @@
         return calculate
       }
     ```
+- #### [Crie um programa que imprima os números de 1 a 10 em ordem crescente](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function printAscNumbers(initial, end) {
+        for (let i = initial; i <= end; i++) {
+          console.log(i)
+        }
+      }
+    ```
+- #### [Faça um programa que imprima os números pares de 1 a 20](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function evenNumbers(initial, end) {
+        let even = []
+        for (let i = initial; i <= end; i++) {
+          if (i % 2 === 0) {
+            even.push(i)
+          }
+        }
+        return even
+      }
+    ```
+- #### [Crie um programa que determine se um número é primo ou não](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function isPrime(number) {
+        if (number < 2) return false
+
+        for (let i = 2; i < number; i++) {
+          if (number % i === 0) {
+            return false
+          }
+        }
+        return true
+      }
+    ```
+- #### [Faça um programa que converta graus Celsius para Fahrenheit](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function celsiusToFahrenheit(celsius){
+        let fahrenheit = celsius * 1.8 + 32
+        return fahrenheit
+      }
+    ```
+- #### [Escreva um programa que receba uma lista de números e imprima apenas os números pares](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function findEvenNumbers(numbers) {
+        let even = []
+        for (number of numbers) {
+          if (number % 2 === 0) {
+            even.push(number)
+          }
+        }
+        return even
+      }
+    ```
+- #### [Escreva um programa que receba uma lista de números e retorne o maior e o menor valor](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function findLargestAndSmallestNumber(numbers) {
+        let largestNumber = numbers[0]
+        let smallestNumber = numbers[0]
+      
+        for (let i = 1; i < numbers.length; i++) {
+            if (numbers[i] > largestNumber) {
+              largestNumber = numbers[i]     
+            } else {
+              smallestNumber = numbers[i]
+            }
+        }
+        console.log(`O maior número é ${largestNumber} e o menor é ${smallestNumber}`)
+      }
+    ```
+- #### [Faça um programa que verifique se uma palavra é um palindromo (se pode ser lida da mesma forma de trás para frente)](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function isPalindrome(word) {
+        let reversedWord = ''
+      
+        for (let i = word.length - 1; i >= 0; i--) {
+          reversedWord += word[i]
+        }
+      
+        if (word === reversedWord) return true
+      
+        return false
+      }
+    ```
+- #### [Crie um programa que inverta a ordem dos elementos em uma lista](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function reverseList(array) {
+        let reverseList = []
+      
+        for (i = array.length - 1; i >= 0; i--) {
+          reverseList.push(array[i])
+        }
+      
+        return reverseList
+      }
+    ```
+- #### [Faça um programa que simule um jogo de adivinhação, onde o computador escolhe um número e o usuário tenta adivinhar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
+    ```js
+      // Trecho do Código
+      function numberGuessingGame(numberChosenByUser, numberChosenByComputer) {
+        if (numberChosenByUser === numberChosenByComputer) return true
+      
+        return false
+      }
+    ```
+
+- ### Dependencias
+  [prompt-sync](https://www.npmjs.com/package/prompt-sync) 📝🔗
+   ```
+   npm install prompt-sync
+   ```
+- ### Execução do Projeto
+    ```
+    git clone https://github.com/devcodecampos/javascript-training-fap.git
+
+    cd javascript-training-fap
+
+    cd aula-25-07
+
+    npm install
+
+    npm start
+    ```
+
+- ### Preview
+   ```
+    Exercícios 
+    (1) Escreva um programa que imprima "Olá, mundo!" na tela
+    (2) Crie um programa que solicite o nome do usuário e, em seguida, imprima uma mensagem personalizada com o nome inserido 
+    (3) Escreva um programa que calcule a soma de dois números inteiros e exiba o resultado
+    (4) Crie um programa que receba a idade de uma pessoa e informe se ela é maior ou menor de idade
+    (5) Faça um programa que verifique se um número é par ou impar
+    (6) Escreva um programa que calcule a média de três números informados pelo usuário
+    (7) Crie um programa que imprima os números de 1 a 10 em ordem crescente
+    (8) Faça um programa que imprima os números pares de 1 a 20
+    (9) Crie um programa que determine se um número é primo ou não
+    (10) Faça um programa que converta graus Celsius para Fahrenheit
+    (11) Escreva um programa que receba uma lista de números e imprima apenas os números pares
+    (12) Escreva um programa que receba uma lista de números e retorne o maior e o menor valor
+    (13) Faça um programa que verifique se uma palavra é um palindromo (se pode ser lida da mesma forma de trás para frente)
+    (14) Crie um programa que inverta a ordem dos elementos em uma lista
+    (15) Faça um programa que simule um jogo de adivinhação, onde o computador escolhe um número e o usuário tenta adivinhar
+    (0) Sair)
+   
+    Escolha uma opção: 
+    ```
  ## 🚀 Desafios [Aula 18-07]
   - #### [Criação de um programa em Javascript que solicite ao usuário um número inteiro e exiba na tela se o número é par ou ímpar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
   
@@ -210,4 +362,14 @@
     // Array
     push()
     length
+    ```
+
+    [doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) 📝🔗
+    ``` js
+    Math.random()
+    ```
+
+    [doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) 📝🔗
+    ``` js
+    Math.floor()
     ```

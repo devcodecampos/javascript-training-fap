@@ -1,0 +1,18 @@
+{
+  "name": "javascript-training-fap-25-07",
+  "version": "1.0.0",
+  "description": "REPO referente a formação acelerada em programação da SOFTEX PERNAMBUCO, com foco em backend (NODE.JS)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Matheus Campos",
+    "email": "devcodecampos@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

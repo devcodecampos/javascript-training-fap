@@ -1,13 +1,8 @@
 ## 📗 Formação Acelerada em Programação - BACKEND (NODE.JS) 
 - Programa realizado pela [Softex Pernambuco](https://softexpe.org.br/)
 - Repositório criado para armazenar o conteúdo das aulas, como também dos desafios passados pelo professor
-## Realização: 
-<div align="center">
-  <img alt="Softex Pernambuco" src=".github/fap.jpg"/>    
-</div>
 
  ## 🚀 Desafios [Aula 18-07]
-  
   - #### [Criação de um programa em Javascript que solicite ao usuário um número inteiro e exiba na tela se o número é par ou ímpar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
   
     ```js

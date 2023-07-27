@@ -9,6 +9,7 @@ const average = require('./utils/average')
 const printAscNumbers = require('./utils/print-asc-numbers')
 const listEvenNumbers = require('./utils/list-even-numbers')
 const isPrime = require('./utils/prime-number')
+const celsiusToFahrenheit = require('./utils/celsius-fahrenheit')
 
 let option
 do {
@@ -23,7 +24,7 @@ do {
   \n(7) Crie um programa que imprima os números de 1 a 10 em ordem crescente
   \n(8) Faça um programa que imprima os números pares de 1 a 20
   \n(9) Crie um programa que determine se um número é primo ou não
-  \n(10) Faça um programa que converts graus Celsius para Fahrenheit
+  \n(10) Faça um programa que converta graus Celsius para Fahrenheit
   \n(11) Escreva um programa que receba uma lista de números e imprima apenas os números pares
   \n(12) Escreva um programa que receba uma lista de números e retorne o maior e o menor valor
   \n(13) Faça um programa que verifique se uma palavra é um palindromo (se pode ser lide da mesma forma de trás para frente)
@@ -97,7 +98,7 @@ do {
       break
     case 9:
       let numberPrime = Number.parseInt(prompt('Informe um valor: '))
-      
+
       if (isNaN(numberPrime)) {
         console.log('Informe um valor numérico')
         break
@@ -108,6 +109,15 @@ do {
       } else {
         console.log('O número informado não é PRIMO')
       }
+      break
+    case 10:
+      let numberCelsius = Number.parseFloat(prompt('Informe uma temperatura em graus celsius: '))
+
+      if (isNaN(numberCelsius)) {
+        console.log('Informe um valor numérico')
+        break
+      }
+      console.log(`A conversão de ${numberCelsius} celsius para fahrenheit é ${celsiusToFahrenheit(numberCelsius)}`)
       break
     default:
       console.log('Informe uma opção disponível')

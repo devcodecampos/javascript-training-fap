@@ -5,6 +5,7 @@ const customMessage = require('./utils/print-custom-message')
 const calculateSum = require('./utils/calculate-sum')
 const isMinorAge = require('./utils/minor-age')
 const isEven = require('./utils/even-odd')
+const average = require('./utils/average')
 
 let option
 do {
@@ -67,6 +68,18 @@ do {
       } else {
         console.log('O número informado é ÍMPAR')
       }
+      break
+    case 6:
+      let firstNumberAverage = Number.parseFloat(prompt('Informe o primeiro valor: '))
+      let secondNumberAverage = Number.parseFloat(prompt('Informe o segundo valor: '))
+      let thirdNumberAverage = Number.parseFloat(prompt('Informe o terceiro valor: '))
+
+      let numbers = []
+      numbers.push(firstNumberAverage)
+      numbers.push(secondNumberAverage)
+      numbers.push(thirdNumberAverage)
+
+      console.log('A média dos número informados foi de: ' + average(numbers))
       break
     default:
       console.log('Informe uma opção disponível')

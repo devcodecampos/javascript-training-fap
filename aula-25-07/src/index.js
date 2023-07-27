@@ -7,6 +7,7 @@ const isMinorAge = require('./utils/minor-age')
 const isEven = require('./utils/even-odd')
 const average = require('./utils/average')
 const printAscNumbers = require('./utils/print-asc-numbers')
+const listEvenNumbers = require('./utils/list-even-numbers')
 
 let option
 do {
@@ -86,6 +87,12 @@ do {
       let initial = 1
       let end = 10
       printAscNumbers(initial, end)
+      break
+    case 8:
+      let initialEven = 1
+      let endEven = 20
+      
+      console.log(`Os número pares entre ${initialEven} e ${endEven} são [${listEvenNumbers(initialEven, endEven)}]`)
       break
     default:
       console.log('Informe uma opção disponível')

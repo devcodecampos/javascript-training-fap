@@ -13,6 +13,7 @@ const celsiusToFahrenheit = require('./utils/celsius-fahrenheit')
 const findEvenNumbers = require('./utils/find-even-numbers')
 const findLargestAndSmallestNumber = require('./utils/find-largest-smallest-number')
 const isPalindrome = require('./utils/palindrome')
+const reverseList = require('./utils/reverse-list')
 
 let option
 do {
@@ -191,11 +192,16 @@ do {
     case 13:
       let word = prompt('Informe uma palavra: ')
 
-      if(isPalindrome(word)){
+      if (isPalindrome(word)) {
         console.log(`A palavra ${word} é um palindromo`)
       } else {
         console.log(`A palavra ${word} não é um palindromo`)
       }
+      break
+    case 14:
+      let list = [1, 2, 3, 4, 5]
+      console.log(`Lista original: [${list}]`)
+      console.log(`Lista invertida: [${reverseList(list)}]`)
       break
     default:
       console.log('Informe uma opção disponível')

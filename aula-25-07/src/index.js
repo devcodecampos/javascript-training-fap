@@ -12,6 +12,7 @@ const isPrime = require('./utils/prime-number')
 const celsiusToFahrenheit = require('./utils/celsius-fahrenheit')
 const findEvenNumbers = require('./utils/find-even-numbers')
 const findLargestAndSmallestNumber = require('./utils/find-largest-smallest-number')
+const isPalindrome = require('./utils/palindrome')
 
 let option
 do {
@@ -29,7 +30,7 @@ do {
   \n(10) Faça um programa que converta graus Celsius para Fahrenheit
   \n(11) Escreva um programa que receba uma lista de números e imprima apenas os números pares
   \n(12) Escreva um programa que receba uma lista de números e retorne o maior e o menor valor
-  \n(13) Faça um programa que verifique se uma palavra é um palindromo (se pode ser lide da mesma forma de trás para frente)
+  \n(13) Faça um programa que verifique se uma palavra é um palindromo (se pode ser lida da mesma forma de trás para frente)
   \n(14) Crie um programa que inverta a ordem dos elementos em uma lista
   \n(15) Faça um programa que simule um jogo de adivinhação, onde o computador escolhe um número e o usuário tenta adivinhar
   \n(0) Sair`)
@@ -186,6 +187,15 @@ do {
             console.log('Opção indefinida! Tente Novamente')
         }
       } while (optionNumbers)
+      break
+    case 13:
+      let word = prompt('Informe uma palavra: ')
+
+      if(isPalindrome(word)){
+        console.log(`A palavra ${word} é um palindromo`)
+      } else {
+        console.log(`A palavra ${word} não é um palindromo`)
+      }
       break
     default:
       console.log('Informe uma opção disponível')

@@ -14,6 +14,7 @@ const findEvenNumbers = require('./utils/find-even-numbers')
 const findLargestAndSmallestNumber = require('./utils/find-largest-smallest-number')
 const isPalindrome = require('./utils/palindrome')
 const reverseList = require('./utils/reverse-list')
+const numberGuessingGame = require('./utils/number-guessing-game')
 
 let option
 do {
@@ -202,6 +203,49 @@ do {
       let list = [1, 2, 3, 4, 5]
       console.log(`Lista original: [${list}]`)
       console.log(`Lista invertida: [${reverseList(list)}]`)
+      break
+    case 15:
+      let optionGame
+      let optionMenuGame = true
+      let wrongChoice = 0
+      let randomNumber = Math.floor(Math.random() * 11)
+
+      do {
+        console.log('\nJogo de Advinhação de números')
+        console.log('\nO computador escolherá um número entre 1 e 10 e você tentará advinhar')
+        console.log(`\nErros: [${wrongChoice}] \n(1) Escolha seu número \n(0) sair`)
+        optionGame = Number.parseInt(prompt('Escolha uma opção: '))
+        switch (optionGame) {
+          case 1:
+            let chosenNumber = Number.parseInt(prompt('Escolha seu número: '))
+            if (isNaN(chosenNumber)) {
+              console.log('Informe um valor numérico')
+              break
+            }
+
+            if (!numberGuessingGame(chosenNumber, randomNumber)) {
+              console.log('Você não acertou :(')
+              wrongChoice++
+            } else {
+              console.log('Parabéns você acertou o número!')
+              wrongChoice = 0
+              randomNumber = Math.floor(Math.random() * 11)
+              break
+            }
+
+            if (wrongChoice === 3) {
+              console.log(`Você perdeu o jogo, o número que o computador escolheu era ${randomNumber}`)
+              break
+            }
+
+            break
+          case 0:
+            optionMenuGame = false
+            break
+          default:
+            console.log('Opção indefinida! Tente Novamente')
+        }
+      } while (optionMenuGame)
       break
     default:
       console.log('Informe uma opção disponível')

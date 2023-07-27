@@ -10,6 +10,7 @@ const printAscNumbers = require('./utils/print-asc-numbers')
 const listEvenNumbers = require('./utils/list-even-numbers')
 const isPrime = require('./utils/prime-number')
 const celsiusToFahrenheit = require('./utils/celsius-fahrenheit')
+const findEvenNumbers = require('./utils/find-even-numbers')
 
 let option
 do {
@@ -118,6 +119,36 @@ do {
         break
       }
       console.log(`A conversão de ${numberCelsius} celsius para fahrenheit é ${celsiusToFahrenheit(numberCelsius)}`)
+      break
+    case 11:
+      let optionEven = true
+      let chosenNumbers = []
+      let choice
+      do {
+        console.log(`Números escolhidos: [${chosenNumbers}] \n(1) informar valor \n(2) verificar números pares na lista \n(0) sair`)
+        choice = Number.parseInt(prompt('Escolha uma opção: '))
+
+        switch (choice) {
+          case 1:
+            let number = Number.parseInt(prompt('Informe um valor: '))
+            if (isNaN(number)) {
+              console.log('Informe um valor numérico')
+              break
+            }
+
+            chosenNumbers.push(number)
+            break
+          case 2:
+            let calculate = findEvenNumbers(chosenNumbers)
+            console.log(`Os números pares são: [${calculate}]`)
+            chosenNumbers = []
+            break
+          case 0:
+            optionEven = false
+          default:
+            console.log('Opção indefinida! Tente Novamente')
+        }
+      } while (optionEven)
       break
     default:
       console.log('Informe uma opção disponível')

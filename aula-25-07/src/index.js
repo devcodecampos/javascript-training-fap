@@ -4,6 +4,7 @@ const printHelloWorld = require('./utils/print-hello-world')
 const customMessage = require('./utils/print-custom-message')
 const calculateSum = require('./utils/calculate-sum')
 const isMinorAge = require('./utils/minor-age')
+const isEven = require('./utils/even-odd')
 
 let option
 do {
@@ -56,6 +57,15 @@ do {
         console.log('Menor de idade')
       } else {
         console.log('Maior de idade')
+      }
+      break
+    case 5:
+      let number = Number.parseInt(prompt('Informe um número: '))
+
+      if (isEven(number)) {
+        console.log('O número informado é PAR')
+      } else {
+        console.log('O número informado é ÍMPAR')
       }
       break
     default:

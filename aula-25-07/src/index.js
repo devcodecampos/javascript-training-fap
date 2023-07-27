@@ -11,6 +11,7 @@ const listEvenNumbers = require('./utils/list-even-numbers')
 const isPrime = require('./utils/prime-number')
 const celsiusToFahrenheit = require('./utils/celsius-fahrenheit')
 const findEvenNumbers = require('./utils/find-even-numbers')
+const findLargestAndSmallestNumber = require('./utils/find-largest-smallest-number')
 
 let option
 do {
@@ -145,10 +146,46 @@ do {
             break
           case 0:
             optionEven = false
+            break
           default:
             console.log('Opção indefinida! Tente Novamente')
         }
       } while (optionEven)
+      break
+    case 12:
+      let optionNumbers = true
+      let chosenNumbersLargestSmallest = []
+      let optionMenu
+      do {
+        console.log(`\nNúmeros escolhidos: [${chosenNumbersLargestSmallest}] \n(1) informar valor \n(2) verificar o maior e menor número na lista \n(0) sair`)
+        optionMenu = Number.parseInt(prompt('Escolha uma opção: '))
+
+        switch (optionMenu) {
+          case 1:
+            let number = Number.parseInt(prompt('Informe um valor: '))
+            if (isNaN(number)) {
+              console.log('Informe um valor numérico')
+              break
+            }
+
+            chosenNumbersLargestSmallest.push(number)
+            break
+          case 2:
+            if (!chosenNumbersLargestSmallest.length) {
+              console.log('Nenhum valor foi informado')
+              break
+            }
+
+            findLargestAndSmallestNumber(chosenNumbersLargestSmallest)
+            chosenNumbersLargestSmallest = []
+            break
+          case 0:
+            optionNumbers = false
+            break
+          default:
+            console.log('Opção indefinida! Tente Novamente')
+        }
+      } while (optionNumbers)
       break
     default:
       console.log('Informe uma opção disponível')

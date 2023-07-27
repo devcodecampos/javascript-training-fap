@@ -8,6 +8,7 @@ const isEven = require('./utils/even-odd')
 const average = require('./utils/average')
 const printAscNumbers = require('./utils/print-asc-numbers')
 const listEvenNumbers = require('./utils/list-even-numbers')
+const isPrime = require('./utils/prime-number')
 
 let option
 do {
@@ -91,8 +92,22 @@ do {
     case 8:
       let initialEven = 1
       let endEven = 20
-      
+
       console.log(`Os número pares entre ${initialEven} e ${endEven} são [${listEvenNumbers(initialEven, endEven)}]`)
+      break
+    case 9:
+      let numberPrime = Number.parseInt(prompt('Informe um valor: '))
+      
+      if (isNaN(numberPrime)) {
+        console.log('Informe um valor numérico')
+        break
+      }
+
+      if (isPrime(numberPrime)) {
+        console.log('O número informado é PRIMO')
+      } else {
+        console.log('O número informado não é PRIMO')
+      }
       break
     default:
       console.log('Informe uma opção disponível')

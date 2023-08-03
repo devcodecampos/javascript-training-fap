@@ -1,6 +1,17 @@
 ## 📗 Formação Acelerada em Programação - BACKEND (NODE.JS) 
 - Programa realizado pela [Softex Pernambuco](https://softexpe.org.br/)
 - Repositório criado para armazenar o conteúdo das aulas, como também dos desafios passados pelo professor
+ ## 🚀 Desafios POO [Aula 01-08](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08)
+  - #### [Crie uma classe chamada "Pessoa" que tenha os atributos "nome" e "idade". Em seguida, crie um objeto chamado "pessoa1" e atribua a ele um nome e uma idade](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08) 📝🔗
+  
+  - #### [Na classe "Pessoa" criada anteriormente, adicione um método chamado "apresentar" que exiba no console uma mensagem com o nome e a idade da pessoa](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08) 📝🔗
+  
+  - #### [Crie uma classe chamada "Aluno" que herde da classe "Pessoa" (do exercício 1). A classe "Aluno" deve ter um atributo adicional chamado "matricula". Crie um objeto chamado "aluno1" que seja um aluno e imprima no console](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08) 📝🔗
+  
+  - #### [Modifique a classe "Pessoa" para que o atributo "idade" seja privado. Crie métodos getters e setters para acessar e alterar o valor da idade, respeitando o encapsulamento](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08) 📝🔗
+  
+  - #### [Crie uma classe chamada "Animal" com um método chamado "falar". Crie classes específicas que herdem de "Animal" (por exemplo: "Cachorro", "Gato", etc.) e sobrescrevam o método "falar" para exibir o som característico de cada animal](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08) 📝🔗
+  
  ## 🚀 Desafios [Aula 25-07](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
   - #### [Escreva um programa que imprima "Olá, mundo!" na tela](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-25-07)
     ```js

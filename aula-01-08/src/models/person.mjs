@@ -3,4 +3,8 @@ export default class Person {
     this.name = name
     this.age = age
   }
+
+  introduceSelf(){
+    return `name: ${this.name}, age: ${this.age}`
+  }
 }

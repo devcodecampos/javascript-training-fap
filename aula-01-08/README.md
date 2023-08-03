@@ -55,7 +55,7 @@
     Mooooo Moooooo 
     ```
 
-   - ### Conceitos Utilizados
+- ### Conceitos Utilizados
     [doc](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes) 📝
     ```js
     // class

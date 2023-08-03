@@ -1,5 +1,5 @@
 ## 🚀 Desafios Lógica de Programação [Aula 18-07](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
-  - #### [Criação de um programa em Javascript que solicite ao usuário um número inteiro e exiba na tela se o número é par ou ímpar](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
+  - #### Criação de um programa em Javascript que solicite ao usuário um número inteiro e exiba na tela se o número é par ou ímpar
   
     ```js
       // Trecho do Código
@@ -12,7 +12,7 @@
       }
     ```
 
-  - #### [Criação de uma função em Javascript que receba dois números inteiros como parâmetros e retorne o maior número entre eles](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
+  - #### Criação de uma função em Javascript que receba dois números inteiros como parâmetros e retorne o maior número entre eles
   
     ```js
       // Trecho do Código
@@ -25,7 +25,7 @@
       }
     ```
   
-  - #### [Criação de um programa em Javascript que solicite ao usuário um número inteiro positivo e exiba na tela todos os números primos até esse número](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
+  - #### Criação de um programa em Javascript que solicite ao usuário um número inteiro positivo e exiba na tela todos os números primos até esse número
   
     ```js
       // Trecho do Código
@@ -39,7 +39,7 @@
       }
     ```
   
-  - #### [Criação de uma função em Javascript que receba um array de números e retorne a média aritmética desses números](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-18-07)
+  - #### Criação de uma função em Javascript que receba um array de números e retorne a média aritmética desses números
   
     ```js
       // Trecho do Código

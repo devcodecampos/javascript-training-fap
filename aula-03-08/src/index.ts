@@ -1,5 +1,8 @@
 import Person from "./models/person";
 import Student from "./models/student";
+import Animal from "./models/animal";
+import Duck from "./models/duck";
+import Cow from "./models/cow";
 
 const person1 = new Person("matheus", 27);
 console.log(person1);
@@ -14,3 +17,12 @@ console.log(person2.getAge());
 
 person2.setAge(46);
 console.log(person2.getAge());
+
+const animal1 = new Animal();
+animal1.speak();
+
+const duck1 = new Duck();
+duck1.speak();
+
+const cow1 = new Cow();
+cow1.speak();

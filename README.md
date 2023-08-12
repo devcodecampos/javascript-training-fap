@@ -1,6 +1,12 @@
 ## 📗 Formação Acelerada em Programação - BACKEND (NODE.JS) 
 - Programa realizado pela [Softex Pernambuco](https://softexpe.org.br/)
 - Repositório criado para armazenar o conteúdo das aulas, como também dos desafios passados pelo professor
+
+## 🧑🏽‍💻 Techs
+- JavaScript
+- TypeScript
+- Node.js
+- Git e Github
   
  ## 🚀 Desafios POO [Aula 03-08](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-03-08) - TypeScript
   - #### [Acessar Projeto](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-03-08)

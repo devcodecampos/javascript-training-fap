@@ -5,6 +5,7 @@ import { productNumbers } from "./loops/calculate-product-numbers";
 import { fibonacciSequence } from "./loops/fibonacci-sequence";
 import { printMultiplesOfThree } from "./loops/multiples-of-three";
 import { isPositiveNegativeOrZero } from "./conditional-statements/positive-negative-zero";
+import { isEven } from "./conditional-statements/even-numbers";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -51,3 +52,5 @@ console.log(
     5
   )}`
 );
+
+console.log(`Determine se um número é ímpar ou par utilizando uma estrutura if e o operador %: Exemplo, o número 4 é ${isEven(4)}`);

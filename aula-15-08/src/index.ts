@@ -6,6 +6,7 @@ import { fibonacciSequence } from "./loops/fibonacci-sequence";
 import { printMultiplesOfThree } from "./loops/multiples-of-three";
 import { isPositiveNegativeOrZero } from "./conditional-statements/positive-negative-zero";
 import { isEven } from "./conditional-statements/even-numbers";
+import { isLeapYear } from "./conditional-statements/leap-year";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -53,4 +54,14 @@ console.log(
   )}`
 );
 
-console.log(`Determine se um número é ímpar ou par utilizando uma estrutura if e o operador %: Exemplo, o número 4 é ${isEven(4)}`);
+console.log(
+  `Determine se um número é ímpar ou par utilizando uma estrutura if e o operador %: Exemplo, o número 4 é ${isEven(
+    4
+  )}`
+);
+
+console.log(
+  `Verifique se um ano é bissexto (divisível por 4 e não por 100, a menos que seja divisível por 400): Exemplo, o ano 2024 é bissexto? ${isLeapYear(
+    2024
+  )}`
+);

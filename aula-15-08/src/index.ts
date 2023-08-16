@@ -2,6 +2,7 @@ import { listNumbers } from "./loops/list-numbers";
 import { sum } from "./loops/calculate-sum-numbers";
 import { evenNumbers } from "./loops/list-even-numbers";
 import { productNumbers } from "./loops/calculate-product-numbers";
+import { fibonacciSequence } from "./loops/fibonacci-sequence";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -31,3 +32,5 @@ console.log(
     5
   )}`
 );
+
+console.log(`Crie um loop que imprima a sequência de Fibonacci até o 10º termo: [${fibonacciSequence()}]`)

@@ -10,6 +10,7 @@ import { isLeapYear } from "./conditional-statements/leap-year";
 import { calculator } from "./conditional-statements/calculator";
 import { isPalindrome } from "./conditional-statements/palindrome";
 import { factorial } from "./basic-concepts/calculate-factorial";
+import { findHighestNumber } from "./basic-concepts/highest-number";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -86,5 +87,11 @@ console.log(
 console.log(
   `Crie uma função que calcule o fatorial de um número inteiro: Exemplo, o fatorial de 5 é ${factorial(
     5
+  )}`
+);
+
+console.log(
+  `Crie uma função que retorne o maior valor entre três números: Exemplo, qual o maior número nesse array [5, 8, 9]: ${findHighestNumber(
+    [5, 8, 9]
   )}`
 );

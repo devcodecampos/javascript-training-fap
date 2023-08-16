@@ -3,6 +3,7 @@ import { sum } from "./loops/calculate-sum-numbers";
 import { evenNumbers } from "./loops/list-even-numbers";
 import { productNumbers } from "./loops/calculate-product-numbers";
 import { fibonacciSequence } from "./loops/fibonacci-sequence";
+import { printMultiplesOfThree } from "./loops/multiples-of-three";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -33,4 +34,13 @@ console.log(
   )}`
 );
 
-console.log(`Crie um loop que imprima a sequência de Fibonacci até o 10º termo: [${fibonacciSequence()}]`)
+console.log(
+  `Crie um loop que imprima a sequência de Fibonacci até o 10º termo: [${fibonacciSequence()}]`
+);
+
+console.log(
+  `Imprima os múltiplos de 3 de 0 a 30 utilizando um loop for: [${printMultiplesOfThree(
+    0,
+    30
+  )}]`
+);

@@ -8,6 +8,7 @@ import { isPositiveNegativeOrZero } from "./conditional-statements/positive-nega
 import { isEven } from "./conditional-statements/even-numbers";
 import { isLeapYear } from "./conditional-statements/leap-year";
 import { calculator } from "./conditional-statements/calculator";
+import { isPalindrome } from "./conditional-statements/palindrome";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -72,5 +73,11 @@ console.log(
     5,
     2,
     "*"
+  )}`
+);
+
+console.log(
+  `Verifique se uma string é um palíndromo: Exemplo, a palavra ovo é um palíndromo? ${isPalindrome(
+    "ovo"
   )}`
 );

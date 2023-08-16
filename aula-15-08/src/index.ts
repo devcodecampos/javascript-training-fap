@@ -7,6 +7,7 @@ import { printMultiplesOfThree } from "./loops/multiples-of-three";
 import { isPositiveNegativeOrZero } from "./conditional-statements/positive-negative-zero";
 import { isEven } from "./conditional-statements/even-numbers";
 import { isLeapYear } from "./conditional-statements/leap-year";
+import { calculator } from "./conditional-statements/calculator";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -63,5 +64,13 @@ console.log(
 console.log(
   `Verifique se um ano é bissexto (divisível por 4 e não por 100, a menos que seja divisível por 400): Exemplo, o ano 2024 é bissexto? ${isLeapYear(
     2024
+  )}`
+);
+
+console.log(
+  `Crie uma calculadora simples que opera com dois números e um operador (+, -, *, /): Exemplo, a multiplicação de 5 por 2 é ${calculator(
+    5,
+    2,
+    "*"
   )}`
 );

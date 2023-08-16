@@ -9,6 +9,7 @@ import { isEven } from "./conditional-statements/even-numbers";
 import { isLeapYear } from "./conditional-statements/leap-year";
 import { calculator } from "./conditional-statements/calculator";
 import { isPalindrome } from "./conditional-statements/palindrome";
+import { factorial } from "./basic-concepts/calculate-factorial";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -79,5 +80,11 @@ console.log(
 console.log(
   `Verifique se uma string é um palíndromo: Exemplo, a palavra ovo é um palíndromo? ${isPalindrome(
     "ovo"
+  )}`
+);
+
+console.log(
+  `Crie uma função que calcule o fatorial de um número inteiro: Exemplo, o fatorial de 5 é ${factorial(
+    5
   )}`
 );

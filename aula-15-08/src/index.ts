@@ -20,6 +20,7 @@ import { multiplicationTable } from "./combining-loops-conditional/multiplicatio
 import { collatzSequence } from "./combining-loops-conditional/collatz-sequence";
 import { isPrime } from "./combining-loops-conditional/prime-number";
 import { countVowels } from "./strings/count-vowels-string";
+import { convertWordToUpperCase } from "./strings/string-upper-case";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -156,4 +157,10 @@ console.log(
   `Conte quantas vogais há em uma string: Exemplo, quantas vogais possui a palavra abacate [${countVowels(
     "abacate"
   )}]`
+);
+
+console.log(
+  `Converta uma string para maiúsculas: Exemplo, converter a palava vasco da gama = ${convertWordToUpperCase(
+    "vasco da gama"
+  )}`
 );

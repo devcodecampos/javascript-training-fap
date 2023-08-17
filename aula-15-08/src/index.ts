@@ -11,6 +11,7 @@ import { calculator } from "./conditional-statements/calculator";
 import { isPalindrome } from "./conditional-statements/palindrome";
 import { factorial } from "./basic-concepts/calculate-factorial";
 import { findHighestNumber } from "./basic-concepts/highest-number";
+import { celsiusToFahrenheit } from "./basic-concepts/celsius-fahrenheit";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -94,4 +95,10 @@ console.log(
   `Crie uma função que retorne o maior valor entre três números: Exemplo, qual o maior número nesse array [5, 8, 9]: ${findHighestNumber(
     [5, 8, 9]
   )}`
+);
+
+console.log(
+  `Converta uma temperatura de Celsius para Fahrenheit usando funções: Exemplo, a conversção de 20 graus celsius é ${celsiusToFahrenheit(
+    20
+  )} em fahrenheit`
 );

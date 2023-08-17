@@ -7,7 +7,40 @@
 - TypeScript
 - Node.js
 - Git e Github
-  
+
+ ## 🚀 Desafios [Aula 15-08](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-15-08) - TypeScript
+  - #### [Acessar Projeto](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-15-08)
+  - [X] Imprima os números de 1 a 10 utilizando um loop for
+  - [X] Calcule a soma dos números de 1 a 100 utilizando um loop **`while`**
+  - [X] Imprima os números pares de 0 a 20 utilizando um loop **`for`**
+  - [X] Calcule o produto dos números de 1 a 5 utilizando um loop **`do...while`**
+  - [X] Crie um loop que imprima a sequência de Fibonacci até o 10º termo
+  - [X] Imprima os múltiplos de 3 de 0 a 30 utilizando um loop **`for`**
+  - [X] Verifique se um número é positivo, negativo ou zero usando declarações **`if`**, **`else if`** e **`else`**
+  - [X] Determine se um número é ímpar ou par utilizando uma estrutura **`if`** e o operador **`%`**
+  - [X] Verifique se um ano é bissexto (divisível por 4 e não por 100, a menos que seja divisível por 400)
+  - [X] Crie uma calculadora simples que opera com dois números e um operador (+, -, *, /)
+  - [X] Verifique se uma string é um palíndromo (lê-se da mesma forma de trás para frente)
+  - [X] Crie uma função que calcule o fatorial de um número inteiro
+  - [X] Crie uma função que retorne o maior valor entre três números
+  - [X] Converta uma temperatura de Celsius para Fahrenheit usando funções
+  - [X] Crie uma função que receba um array de números e retorne a média deles
+  - [X] Crie uma função que remova elementos duplicados de um array
+  - [X] Escreva uma função que inverta uma string (exemplo: "hello" => "olleh")
+  - [X] Imprima os números de 1 a 50, mas para múltiplos de 3 imprima "Sof" e para múltiplos de 5 imprima "Tex"
+  - [X] Crie um programa que imprima a tabela de multiplicação de 1 a 10
+  - [X] Implemente a sequência de Collatz: comece com um número n e, se n for par, divida-o por 2; se for ímpar, multiplique por 3 e some 1. Repita o processo até n se tornar 1
+  - [X] Verifique se um número é primo ou não
+  - [X] Conte quantas vogais há em uma string
+  - [X] Converta uma string para maiúsculas
+  - [X] remova os espaços em branco de uma string
+  - [X] Conte quantas ocorrências de uma determinada letra existem em uma string
+  - [X] Crie um array de números e ordene-o em ordem crescente
+  - [X] Encontre o maior valor em um array de números
+  - [X] Crie um array de nomes e ordene-o em ordem alfabética
+  - [X] crie um programa que some os elementos de dois arrays de mesma dimensão, criando um terceiro array com os resultados
+  - [X] Crie um programa que encontre o valor mais frequente em um array de números
+
  ## 🚀 Desafios POO [Aula 03-08](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-03-08) - TypeScript
   - #### [Acessar Projeto](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-03-08)
   - [X] Refazer os desafios da [Aula 01-08](https://github.com/devcodecampos/javascript-training-fap/tree/main/aula-01-08) utilizando TypeScript

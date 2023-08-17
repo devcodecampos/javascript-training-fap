@@ -21,6 +21,7 @@ import { collatzSequence } from "./combining-loops-conditional/collatz-sequence"
 import { isPrime } from "./combining-loops-conditional/prime-number";
 import { countVowels } from "./strings/count-vowels-string";
 import { convertWordToUpperCase } from "./strings/string-upper-case";
+import { removeWhitespace } from "./strings/remove-whitespace";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -163,4 +164,10 @@ console.log(
   `Converta uma string para maiúsculas: Exemplo, converter a palava vasco da gama = ${convertWordToUpperCase(
     "vasco da gama"
   )}`
+);
+
+console.log(
+  `Remova os espaços em branco de uma string: Exemplo, a palavra " são januario " ficaria "${removeWhitespace(
+    " são januario "
+  )}"`
 );

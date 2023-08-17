@@ -24,6 +24,7 @@ import { convertWordToUpperCase } from "./strings/string-upper-case";
 import { removeWhitespace } from "./strings/remove-whitespace";
 import { countOccurrencesOfAGivenLetter } from "./strings/occurrences-of-a-given-letter";
 import { sortArrayAscOrder } from "./arrays/sort-array";
+import { findHighestNumberArray } from "./arrays/highest-number-array";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -185,4 +186,10 @@ console.log(
   `Crie um array de números e ordene-o em ordem crescente: Exemplo, a ordenação do array [5,8,1,2,7] é [${sortArrayAscOrder(
     [5, 8, 1, 2, 7]
   )}]`
+);
+
+console.log(
+  `Encontre o maior valor em um array de números: Exemplo, qual o maior valor deste array [25, 18, 9]: ${findHighestNumberArray(
+    [25, 18, 9]
+  )}`
 );

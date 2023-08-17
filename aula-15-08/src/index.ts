@@ -23,7 +23,7 @@ import { countVowels } from "./strings/count-vowels-string";
 import { convertWordToUpperCase } from "./strings/string-upper-case";
 import { removeWhitespace } from "./strings/remove-whitespace";
 import { countOccurrencesOfAGivenLetter } from "./strings/occurrences-of-a-given-letter";
-import { sortArrayAscOrder } from "./strings/sort-array";
+import { sortArrayAscOrder } from "./arrays/sort-array";
 
 console.log("\nEXERCÍCIOS");
 console.log(

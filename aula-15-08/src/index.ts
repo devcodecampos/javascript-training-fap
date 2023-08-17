@@ -12,6 +12,7 @@ import { isPalindrome } from "./conditional-statements/palindrome";
 import { factorial } from "./basic-concepts/calculate-factorial";
 import { findHighestNumber } from "./basic-concepts/highest-number";
 import { celsiusToFahrenheit } from "./basic-concepts/celsius-fahrenheit";
+import { average } from "./basic-concepts/average-numbers";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -101,4 +102,10 @@ console.log(
   `Converta uma temperatura de Celsius para Fahrenheit usando funções: Exemplo, a conversção de 20 graus celsius é ${celsiusToFahrenheit(
     20
   )} em fahrenheit`
+);
+
+console.log(
+  `Crie uma função que receba um array de números e retorne a média deles: Exemplo, a média do array [5, 4, 2, 1] é ${average(
+    [5, 4, 2, 1]
+  )}`
 );

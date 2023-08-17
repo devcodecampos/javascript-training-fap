@@ -25,6 +25,7 @@ import { removeWhitespace } from "./strings/remove-whitespace";
 import { countOccurrencesOfAGivenLetter } from "./strings/occurrences-of-a-given-letter";
 import { sortArrayAscOrder } from "./arrays/sort-array";
 import { findHighestNumberArray } from "./arrays/highest-number-array";
+import { sortArrayNamesAscOrder } from "./arrays/sort-array-names";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -193,3 +194,5 @@ console.log(
     [25, 18, 9]
   )}`
 );
+
+console.log(`Crie um array de nomes e ordene-o em ordem alfabética: Exemplo, a ordenação do array ["slash", "red hot chili peppers", "alter brige"] é [${sortArrayNamesAscOrder(["slash", "red hot chili peppers", "alter brige"])}]`)

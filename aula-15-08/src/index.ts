@@ -16,6 +16,7 @@ import { average } from "./basic-concepts/average-numbers";
 import { removeDuplicateElements } from "./basic-concepts/remove-duplicate-elements";
 import { reverseString } from "./basic-concepts/reverse-string";
 import { listNumbersMultiples } from "./combining-loops-conditional/list-numbers-multiples";
+import { multiplicationTable } from "./combining-loops-conditional/multiplication-table";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -130,4 +131,8 @@ console.log(
     1,
     50
   )}`
+);
+
+console.log(
+  `Crie um programa que imprima a tabela de multiplicação de 1 a 10: ${multiplicationTable()}`
 );

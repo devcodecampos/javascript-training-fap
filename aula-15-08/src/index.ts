@@ -13,6 +13,7 @@ import { factorial } from "./basic-concepts/calculate-factorial";
 import { findHighestNumber } from "./basic-concepts/highest-number";
 import { celsiusToFahrenheit } from "./basic-concepts/celsius-fahrenheit";
 import { average } from "./basic-concepts/average-numbers";
+import { removeDuplicateElements } from "./basic-concepts/remove-duplicate-elements";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -108,4 +109,10 @@ console.log(
   `Crie uma função que receba um array de números e retorne a média deles: Exemplo, a média do array [5, 4, 2, 1] é ${average(
     [5, 4, 2, 1]
   )}`
+);
+
+console.log(
+  `Crie uma função que remova elementos duplicados de um array: Exempplo, a remoção de elementos duplicados do array [5, 8, 7, 5, 9, 3, 8] é [${removeDuplicateElements(
+    [5, 8, 7, 5, 9, 3, 8]
+  )}]`
 );

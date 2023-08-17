@@ -19,6 +19,7 @@ import { listNumbersMultiples } from "./combining-loops-conditional/list-numbers
 import { multiplicationTable } from "./combining-loops-conditional/multiplication-table";
 import { collatzSequence } from "./combining-loops-conditional/collatz-sequence";
 import { isPrime } from "./combining-loops-conditional/prime-number";
+import { countVowels } from "./strings/count-vowels-string";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -149,4 +150,10 @@ console.log(
   `Verifique se um número é primo ou não: Exemplo, o número 3 é primo? ${isPrime(
     3
   )}`
+);
+
+console.log(
+  `Conte quantas vogais há em uma string: Exemplo, quantas vogais possui a palavra abacate [${countVowels(
+    "abacate"
+  )}]`
 );

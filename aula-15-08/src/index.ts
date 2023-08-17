@@ -26,6 +26,7 @@ import { countOccurrencesOfAGivenLetter } from "./strings/occurrences-of-a-given
 import { sortArrayAscOrder } from "./arrays/sort-array";
 import { findHighestNumberArray } from "./arrays/highest-number-array";
 import { sortArrayNamesAscOrder } from "./arrays/sort-array-names";
+import { sumArrayElements } from "./arrays/sum-elements-arrays";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -107,7 +108,9 @@ console.log(
 
 console.log(
   `Crie uma função que retorne o maior valor entre três números: Exemplo, qual o maior número nesse array [5, 8, 9]: ${findHighestNumber(
-    5, 8, 9
+    5,
+    8,
+    9
   )}`
 );
 
@@ -195,4 +198,15 @@ console.log(
   )}`
 );
 
-console.log(`Crie um array de nomes e ordene-o em ordem alfabética: Exemplo, a ordenação do array ["slash", "red hot chili peppers", "alter brige"] é [${sortArrayNamesAscOrder(["slash", "red hot chili peppers", "alter brige"])}]`)
+console.log(
+  `Crie um array de nomes e ordene-o em ordem alfabética: Exemplo, a ordenação do array ["slash", "red hot chili peppers", "alter brige"] é [${sortArrayNamesAscOrder(
+    ["slash", "red hot chili peppers", "alter brige"]
+  )}]`
+);
+
+console.log(
+  `Crie um programa que some os elementos de dois arrays de mesma dimensão, criando um terceiro array com os resultados: Exemplo, a soma dos elementos dos arrays [1, 2, 3] e [4, 5, 6] é [${sumArrayElements(
+    [1, 2, 3],
+    [4, 5, 6]
+  )}]`
+);

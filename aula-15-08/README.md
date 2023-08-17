@@ -111,6 +111,7 @@
     (27) Encontre o maior valor em um array de números: Exemplo, qual o maior valor deste array [25, 18, 9]?
     (28) Crie um array de nomes e ordene-o em ordem alfabética: Exemplo, a ordenação do array ["slash", "red hot chili peppers", "alter brige"] é =>
     (29) Crie um programa que some os elementos de dois arrays de mesma dimensão, criando um terceiro array com os resultados: Exemplo, a soma dos elementos dos arrays [1, 2, 3] e [4, 5, 6] é =>
+    (30) Crie um programa que encontre o valor mais frequente em um array de números. Exemplo, qual o valor mais frequente do seguinte array [5, 8, 4, 5, 3, 9, 9, 9]
     (0) SAIR
 
     Escolha um exercício: 

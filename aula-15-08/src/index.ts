@@ -23,6 +23,7 @@ import { countVowels } from "./strings/count-vowels-string";
 import { convertWordToUpperCase } from "./strings/string-upper-case";
 import { removeWhitespace } from "./strings/remove-whitespace";
 import { countOccurrencesOfAGivenLetter } from "./strings/occurrences-of-a-given-letter";
+import { sortArrayAscOrder } from "./strings/sort-array";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -173,4 +174,15 @@ console.log(
   )}"`
 );
 
-console.log(`Conte quantas ocorrências de uma determinada letra existem em uma string: Exemplo, quantas letras "t" tem a palavra typescript [${countOccurrencesOfAGivenLetter("t", "typescript")}]`);
+console.log(
+  `Conte quantas ocorrências de uma determinada letra existem em uma string: Exemplo, quantas letras "t" tem a palavra typescript [${countOccurrencesOfAGivenLetter(
+    "t",
+    "typescript"
+  )}]`
+);
+
+console.log(
+  `Crie um array de números e ordene-o em ordem crescente: Exemplo, a ordenação do array [5,8,1,2,7] é [${sortArrayAscOrder(
+    [5, 8, 1, 2, 7]
+  )}]`
+);

@@ -17,6 +17,7 @@ import { removeDuplicateElements } from "./basic-concepts/remove-duplicate-eleme
 import { reverseString } from "./basic-concepts/reverse-string";
 import { listNumbersMultiples } from "./combining-loops-conditional/list-numbers-multiples";
 import { multiplicationTable } from "./combining-loops-conditional/multiplication-table";
+import { collatzSequence } from "./combining-loops-conditional/collatz-sequence";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -135,4 +136,10 @@ console.log(
 
 console.log(
   `Crie um programa que imprima a tabela de multiplicação de 1 a 10: ${multiplicationTable()}`
+);
+
+console.log(
+  `Implemente a sequência de Collatz: comece com um número n e, se n for par, divida-o por 2; se for ímpar, multiplique por 3 e some 1. Repita o processo até n se tornar 1: Exemplo, sequência de Collatz começando em 20 é [${collatzSequence(
+    20
+  )}]`
 );

@@ -105,7 +105,7 @@ console.log(
 
 console.log(
   `Crie uma função que retorne o maior valor entre três números: Exemplo, qual o maior número nesse array [5, 8, 9]: ${findHighestNumber(
-    [5, 8, 9]
+    5, 8, 9
   )}`
 );
 

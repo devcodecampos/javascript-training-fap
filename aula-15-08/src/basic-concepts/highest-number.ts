@@ -1,10 +1,17 @@
-export function findHighestNumber(numbers: number[]): number {
-  let highestNumber = numbers[0];
+export function findHighestNumber(
+  firstNumber: number,
+  secondNumber: number,
+  thirdNumber: number
+): number {
+  let highestNumber: number = 0;
 
-  for (let i = 1; i < numbers.length; i++) {
-    if (numbers[i] > highestNumber) {
-      highestNumber = numbers[i];
-    }
+  if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+    highestNumber = firstNumber;
+  } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+    highestNumber = secondNumber;
+  } else {
+    highestNumber = thirdNumber;
   }
+  
   return highestNumber;
 }

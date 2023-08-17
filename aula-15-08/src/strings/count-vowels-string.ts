@@ -4,7 +4,7 @@ export function countVowels(word: string): number {
 
   for (let vowel of vowels) {
     for (let i = 0; i < word.length; i++) {
-      if (vowel === word[i]) {
+      if (vowel.toUpperCase() === word[i].toUpperCase()) {
         count++;
       }
     }

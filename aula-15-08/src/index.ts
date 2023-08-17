@@ -15,6 +15,7 @@ import { celsiusToFahrenheit } from "./basic-concepts/celsius-fahrenheit";
 import { average } from "./basic-concepts/average-numbers";
 import { removeDuplicateElements } from "./basic-concepts/remove-duplicate-elements";
 import { reverseString } from "./basic-concepts/reverse-string";
+import { listNumbersMultiples } from "./combining-loops-conditional/list-numbers-multiples";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -121,5 +122,12 @@ console.log(
 console.log(
   `Escreva uma função que inverta uma string: Exemplo: "hello" =>  ${reverseString(
     "hello"
+  )}`
+);
+
+console.log(
+  `Imprima os números de 1 a 50, mas para múltiplos de 3 imprima "Sof" e para múltiplos de 5 imprima "Tex": ${listNumbersMultiples(
+    1,
+    50
   )}`
 );

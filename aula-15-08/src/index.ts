@@ -18,6 +18,7 @@ import { reverseString } from "./basic-concepts/reverse-string";
 import { listNumbersMultiples } from "./combining-loops-conditional/list-numbers-multiples";
 import { multiplicationTable } from "./combining-loops-conditional/multiplication-table";
 import { collatzSequence } from "./combining-loops-conditional/collatz-sequence";
+import { isPrime } from "./combining-loops-conditional/prime-number";
 
 console.log("\nEXERCÍCIOS");
 console.log(
@@ -142,4 +143,10 @@ console.log(
   `Implemente a sequência de Collatz: comece com um número n e, se n for par, divida-o por 2; se for ímpar, multiplique por 3 e some 1. Repita o processo até n se tornar 1: Exemplo, sequência de Collatz começando em 20 é [${collatzSequence(
     20
   )}]`
+);
+
+console.log(
+  `Verifique se um número é primo ou não: Exemplo, o número 3 é primo? ${isPrime(
+    3
+  )}`
 );
